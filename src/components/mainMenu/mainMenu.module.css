@@ -1,0 +1,36 @@
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.icon span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2f6f5;
+  padding: 5px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon p {
+  text-align: center;
+  font-size: 12px;
+  color: #083c7b;
+  font-weight: bold;
+}
